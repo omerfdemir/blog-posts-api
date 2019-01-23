@@ -1,0 +1,26 @@
+{
+    "name": "blog-posts-api",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "test": "mocha ./api/test/*.test.js ",
+        "start": "DEBUG=app:* nodemon ./api/app.js"
+    },
+    "dependencies": {
+        "body-parser": "1.18.3",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.6.9",
+        "express": "~4.16.0",
+        "mongodb": "3.1.12",
+        "mongoose": "5.4.5"
+
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "chai": "4.2.0",
+        "chai-http": "4.2.1",
+        "mocha": "5.2.0"
+    }
+}
